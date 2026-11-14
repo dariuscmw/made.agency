@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>made. — Print Management Handled End-to-End</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Space Grotesk', sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-zinc-900 antialiased selection:bg-zinc-900 selection:text-white">
+
+  <!-- Header -->
+  <header class="border-b border-zinc-200 sticky top-0 bg-white/90 backdrop-blur-md z-50">
+    <div class="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div class="text-3xl font-black tracking-tight">made<span class="text-zinc-950">.</span></div>
+      <a href="#contact" class="text-sm font-semibold border border-zinc-900 px-5 py-2.5 rounded-full hover:bg-zinc-900 hover:text-white transition-all">
+        Contactează-ne
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-5xl mx-auto px-6 pt-24 pb-20">
+    <div class="inline-block border border-zinc-300 text-xs tracking-widest uppercase font-semibold px-3 py-1 rounded-full mb-6">
+      Print Management Handled End-to-End
+    </div>
+    <h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-tight mb-8">
+      Fără erori de mașină.<br>Fără abateri cromatice.<br>Doar producție impecabilă.
+    </h1>
+    <p class="text-lg md:text-xl text-zinc-600 max-w-2xl leading-relaxed mb-10">
+      made. funcționează ca departamentul tău tehnic externalizat de inginerie de tipar și producție publicitară. Preluăm integral fișierele, executăm prepress la nivel de laborator și garantăm un control de calitate (QC) 100% înainte de livrare.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4">
+      <a href="#contact" class="bg-zinc-900 text-white font-medium px-8 py-4 rounded-xl text-center hover:bg-zinc-800 transition-all">
+        Cere un audit gratuit de fișiere
+      </a>
+      <a href="#pachete" class="border border-zinc-300 text-zinc-800 font-medium px-8 py-4 rounded-xl text-center hover:border-zinc-900 transition-all">
+        Vezi pachetele operaționale
+      </a>
+    </div>
+  </section>
+
+  <!-- Oferta Introductiva -->
+  <section class="bg-zinc-50 border-y border-zinc-200 py-12">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div>
+        <span class="text-xs font-bold tracking-widest uppercase text-zinc-500">Ofertă Specială de Lansare</span>
+        <h3 class="text-2xl font-bold mt-1">Comision fix de 10% + Manual de Brand Cadou</h3>
+        <p class="text-zinc-600 text-sm mt-1">Pentru primul proiect gestionat împreună, primești gratuit ghidul tehnic de producție al brandului tău.</p>
+      </div>
+      <a href="#contact" class="whitespace-nowrap bg-zinc-900 text-white text-sm font-semibold px-6 py-3 rounded-lg hover:bg-zinc-800 transition-all">
+        Profită de ofertă
+      </a>
+    </div>
+  </section>
+
+  <!-- Pachete Operative -->
+  <section id="pachete" class="max-w-5xl mx-auto px-6 py-24">
+    <h2 class="text-xs font-bold tracking-widest uppercase text-zinc-500 mb-3">Flexibilitate Operațională</h2>
+    <h3 class="text-3xl md:text-4xl font-bold tracking-tight mb-12">Trei soluții adaptate priorității tale</h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Pachet 1 -->
+      <div class="border border-zinc-200 rounded-2xl p-8 flex flex-col justify-between hover:border-zinc-900 transition-all">
+        <div>
+          <span class="text-xs font-bold text-zinc-400 uppercase">01 / Volum</span>
+          <h4 class="text-2xl font-bold mt-2 mb-4">Cost-Effective</h4>
+          <p class="text-zinc-600 text-sm leading-relaxed mb-6">
+            Optimizare inteligentă de costuri prin încadrare maximă pe coală, tiraje offset grupate și selecție de substraturi cu randament mecanic ridicat. Fără rabat de la conformitatea grafică.
+          </p>
+        </div>
+        <div class="border-t border-zinc-100 pt-4 text-xs text-zinc-500 font-semibold">Tiraje medii & mari • Retail • POSM</div>
+      </div>
+
+      <!-- Pachet 2 -->
+      <div class="border-2 border-zinc-900 rounded-2xl p-8 flex flex-col justify-between bg-zinc-900 text-white relative shadow-xl">
+        <div class="absolute -top-3 right-6 bg-zinc-100 text-zinc-900 text-[10px] tracking-widest font-black uppercase px-3 py-1 rounded-full">
+          Recomandat
+        </div>
+        <div>
+          <span class="text-xs font-bold text-zinc-400 uppercase">02 / Excelență</span>
+          <h4 class="text-2xl font-bold mt-2 mb-4">Premium Quality</h4>
+          <p class="text-zinc-300 text-sm leading-relaxed mb-6">
+            Hârtii speciale de import, cerneluri spot dedicate Pantone, finisaje tactile nobile (folio micro-incizat, timbru sec adânc, lacuri serigrafice UV) și asistență fizică la utilaj (press-check).
+          </p>
+        </div>
+        <div class="border-t border-zinc-800 pt-4 text-xs text-zinc-400 font-semibold">Ambalaje rigide • Cataloage VIP • Protocol</div>
+      </div>
+
+      <!-- Pachet 3 -->
+      <div class="border border-zinc-200 rounded-2xl p-8 flex flex-col justify-between hover:border-zinc-900 transition-all">
+        <div>
+          <span class="text-xs font-bold text-zinc-400 uppercase">03 / Viteză</span>
+          <h4 class="text-2xl font-bold mt-2 mb-4">Deadline Urgent</h4>
+          <p class="text-zinc-600 text-sm leading-relaxed mb-6">
+            Fluxuri de lucru digitale industriale de mare viteză cu uscare UV instantanee, verificare de fișiere în regim prioritar de 2 ore și logistică directă pentru evenimente de criză.
+          </p>
+        </div>
+        <div class="border-t border-zinc-100 pt-4 text-xs text-zinc-500 font-semibold">Lansări rapide • Conferințe • Evenimente</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="max-w-3xl mx-auto px-6 py-20 border-t border-zinc-200">
+    <div class="text-center mb-10">
+      <h3 class="text-3xl font-bold tracking-tight">Hai să vorbim despre proiectul tău</h3>
+      <p class="text-zinc-600 text-sm mt-2">Trimite-ne un mesaj sau solicită un audit tehnic pe fișierele actuale de tipar.</p>
+    </div>
+
+    <!-- Formular conectat gratuit prin Formspree (înlocuiește cu ID-ul tău dacă dorești, sau folosește mailto) -->
+    <form action="mailto:contact@madeagency.ro" method="post" enctype="text/plain" class="space-y-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+          <label class="block text-xs font-bold uppercase text-zinc-600 mb-1">Numele Tău</label>
+          <input type="text" name="nume" required class="w-full border border-zinc-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-zinc-900">
+        </div>
+        <div>
+          <label class="block text-xs font-bold uppercase text-zinc-600 mb-1">Compania</label>
+          <input type="text" name="companie" required class="w-full border border-zinc-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-zinc-900">
+        </div>
+      </div>
+      <div>
+        <label class="block text-xs font-bold uppercase text-zinc-600 mb-1">Adresă de Email</label>
+        <input type="email" name="email" required class="w-full border border-zinc-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-zinc-900">
+      </div>
+      <div>
+        <label class="block text-xs font-bold uppercase text-zinc-600 mb-1">Detalii proiect / Tip materiale dorite</label>
+        <textarea name="mesaj" rows="4" required class="w-full border border-zinc-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-zinc-900"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-zinc-900 text-white font-bold py-4 rounded-xl hover:bg-zinc-800 transition-all text-sm tracking-wide">
+        Trimite Solicitarea
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-zinc-200 py-10 bg-zinc-50">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 gap-4">
+      <div>© 2026 Made Agency (made.). Toate drepturile rezervate.</div>
+      <div>Print Management • Prepress Engineering • QC 100%</div>
+    </div>
+  </footer>
+
+</body>
+</html>
